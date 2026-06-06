@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <section className="section" id="contact">
       <div className="section-header">
-        <span className="section-num">// 03</span>
+        <span className="section-num">// 04</span>
         <h2 className="section-title">CONTACT</h2>
         <div className="section-line" />
       </div>

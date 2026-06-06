@@ -187,6 +187,40 @@ body {
 }
 /* //////////////////////////////////////////////// */
 
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+}
+
+.service-card {
+  background: var(--surface);
+  padding: 1.5rem;
+  transition: background 0.2s;
+}
+.service-card:hover { background: #161616; }
+
+.service-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.service-title {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--white);
+  margin-bottom: 0.4rem;
+}
+
+.service-desc {
+  color: var(--gray);
+  font-size: 0.78rem;
+  line-height: 1.6;
+}
+
 /* ////////////////// SKILLS SECTION //////////////// */
 .skills-grid {
   display: grid;

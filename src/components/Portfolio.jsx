@@ -29,7 +29,7 @@ export default function Portfolio() {
     return (
         <section className="section" id='portfolio'>
             <div className="section-header">
-                <span className="section-num">// 02</span>
+                <span className="section-num">// 03</span>
                 <h2 className="section-title">PORTFOLIO</h2>
                 <div className='section-line' />
             </div>
