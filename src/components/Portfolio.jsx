@@ -8,7 +8,7 @@ const projects = [
     desc: 'Telegram bot that identifies movies from user descriptions using GPT.',
     stack: ['Python', 'aiogram', 'OpenAI API', 'TMDB API', 'Railway'],
     fullDesc: 'A Telegram bot that finds movies by description using GPT-4o-mini. User describes a movie they half-remember — the bot identifies the title, then fetches a poster, rating, trailer link, and similar recommendations via TMDB API. Supports both Russian and English. Deployed live on Railway.',
-    github: 'https://github.com/yourusername/film-bot',
+    github: 'https://github.com/GetRuddy-DF/aifindmoviebot',
     live: null,
   },
   {
