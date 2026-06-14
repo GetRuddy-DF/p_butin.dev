@@ -465,6 +465,42 @@ body {
 }
 .footer span { color: var(--green); }
 /* //////////////////////////////////////////////// */
+/*//////////SWITCH LANG////////////////////////////*/
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lang-switch {
+  background: transparent;
+  border: 1px solid var(--green-dim, #00cc33);
+  color: var(--green, #00ff41);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.75rem;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  transition: all 0.2s;
+}
+
+.lang-switch:hover {
+  background: var(--green-faint, #003311);
+}
+
+.lang-switch-mobile {
+  background: transparent;
+  border: 1px solid var(--green-dim, #00cc33);
+  color: var(--green, #00ff41);
+  padding: 8px;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 8px;
+}
+/* //////////////////////////////////////////////// */
 .scanlines {
   position: fixed; inset: 0;
   background: repeating-linear-gradient(

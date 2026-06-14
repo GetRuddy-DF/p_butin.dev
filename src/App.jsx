@@ -1,4 +1,5 @@
 import './index.css'
+import { LanguageProvider } from './LanguageContext'
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Skills from "./components/Skills"
@@ -10,7 +11,7 @@ import Services from './components/Services'
 export default function App() {
   return (
 
-    <>
+    <LanguageProvider>
       <Navbar/>
       <Hero/>
       <Skills/>
@@ -18,6 +19,6 @@ export default function App() {
       <Portfolio/>
       <Contact/>
       <Footer/>
-    </>
+    </LanguageProvider>
   )
 }
