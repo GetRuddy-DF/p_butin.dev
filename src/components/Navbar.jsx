@@ -2,13 +2,13 @@ import { useState } from 'react';
 import { useLang } from '../LanguageContext'
 
 
-const links = ['skills', 'portfolio', 'contact']
+const links = ['skills', 'portfolio', 'services', 'contact']
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
     const [ lang, toggleLang, t] = useLang()
 
-    const linkKeys = ['skills', 'portfolio', 'contact']
+    const linkKeys = ['skills', 'portfolio', 'services', 'contact']
 
     const scrollTo = (id) => {
         document.getElementById(id)?.scrollIntoView({ behavior: 'smooth'})
