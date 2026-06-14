@@ -20,7 +20,7 @@ export const translations = {
         hero: {
             tag: '// Фулстак разработчик & ai билдер',
             role: 'Создаю сайты и AI-ботов - открыт для фриланса',
-            viewPorjects: 'Смотреть проекты',
+            viewProjects: 'Смотреть проекты',
             hireMe: 'Нанять меня',
         },
         skills: {
