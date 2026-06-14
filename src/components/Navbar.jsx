@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useLang } from '../LanguageContext'
 
 
-const links = ['skills', 'portfolio', 'contant']
+const links = ['skills', 'portfolio', 'contact']
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
