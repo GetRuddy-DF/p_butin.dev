@@ -7,6 +7,13 @@ export const translations = {
             viewProjects: 'View Projects',
             hireMe: 'Hire Me',
         },
+        skills: {
+            title: 'SKILLS',
+            frontend: 'Frontend',
+            aiBots: 'AI & Bots',
+            apisTools: 'APIs & Tools',
+            deploy: 'Deploy',
+        },
     },
     ru: {
         nav: { skills: 'навыки', portfolio: 'портфолио', contact: 'контакты'},
@@ -16,5 +23,12 @@ export const translations = {
             viewPorjects: 'Смотреть проекты',
             hireMe: 'Нанять меня',
         },
+        skills: {
+            title: 'НАВЫКИ',
+            frontend: 'Фронтенд',
+            aiBots: 'AI и Боты',
+            apisTools: 'API и Инструменты',
+            deploy: 'Деплой',
+        }
     },
 }

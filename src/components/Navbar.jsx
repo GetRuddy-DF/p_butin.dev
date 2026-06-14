@@ -6,7 +6,7 @@ const links = ['skills', 'portfolio', 'services', 'contact']
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
-    const [ lang, toggleLang, t] = useLang()
+    const { lang, toggleLang, t} = useLang()
 
     const linkKeys = ['skills', 'portfolio', 'services', 'contact']
 
