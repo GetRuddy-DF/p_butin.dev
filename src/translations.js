@@ -1,6 +1,6 @@
 export const translations = {
     en: {
-        nav: { skills: 'skills', portfolio: 'portfolio', contact: 'contact'},
+        nav: { skills: 'skills', portfolio: 'portfolio', services: 'services', contact: 'contact'},
         hero: {
             tag: '// full-stack developer & ai builder',
             role: 'Building websites& AI-powered bots - available for freelance',
@@ -16,7 +16,7 @@ export const translations = {
         },
     },
     ru: {
-        nav: { skills: 'навыки', portfolio: 'портфолио', contact: 'контакты'},
+        nav: { skills: 'навыки', portfolio: 'портфолио', services: 'сервис', contact: 'контакты'},
         hero: {
             tag: '// Фулстак разработчик & ai билдер',
             role: 'Создаю сайты и AI-ботов - открыт для фриланса',
